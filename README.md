@@ -74,7 +74,7 @@ This project was made using the follow technologies:
 - Dockerized Aplication
 
 # :construction_worker: How to run
-Add your **mongoDB URI** and **Google OAuth** credentials to the `config.env` file
+Add your **MongoDB URI** and **Google OAuth** credentials to the `config.env` file
 
 ```
 # Install dependencies
