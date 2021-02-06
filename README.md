@@ -97,7 +97,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [Blog CMS](https://github.com/RafaelGoulartB/devops-crash-course/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [DevOps Crash Course](https://github.com/RafaelGoulartB/devops-crash-course/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
 ---
 
