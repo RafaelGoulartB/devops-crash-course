@@ -29,6 +29,8 @@
   </sub>
 </div>
 
+---
+
 This app uses Node.js/Express/MongoDB with Google OAuth for authentication
 
 It uses Docker + docker-compose for local execution, Terraform to provision cloud resources, and Github actions for CI/CD.
