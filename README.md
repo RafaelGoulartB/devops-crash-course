@@ -2,20 +2,20 @@
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/rafael-goulartb/">
-      <img alt="Rafael Goulart" src="https://img.shields.io/badge/-RafaelGoulartB-fe4d3b?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Rafael Goulart" src="https://img.shields.io/badge/-RafaelGoulartB-26a69a?style=flat&logo=Linkedin&logoColor=white" />
    </a>
   <a href="https://github.com/RafaelGoulartB/devops-crash-course#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-fe4d3b.svg" target="_blank" />
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-26a69a.svg" target="_blank" />
   </a>
   <a href="https://github.com/RafaelGoulartB/devops-crash-course/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-fe4d3b.svg" target="_blank" />
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-26a69a.svg" target="_blank" />
   </a>
   <a href="https://github.com/RafaelGoulartB/devops-crash-course/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-fe4d3b.svg" target="_blank" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-26a69a.svg" target="_blank" />
   </a>
-  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/RafaelGoulartB/devops-crash-course?color=fe4d3b" />
-  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/RafaelGoulartB/devops-crash-course?color=fe4d3b" />
-  <img alt="" src="https://img.shields.io/github/repo-size/RafaelGoulartB/devops-crash-course?color=fe4d3b" />
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/RafaelGoulartB/devops-crash-course?color=26a69a" />
+  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/RafaelGoulartB/devops-crash-course?color=26a69a" />
+  <img alt="" src="https://img.shields.io/github/repo-size/RafaelGoulartB/devops-crash-course?color=26a69a" />
 </p>
 
 > Create public and private stories from your life
