@@ -87,6 +87,9 @@ npm run dev
 npm start
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
+
 ## Github Action
 
 `.github/workflows/build-push-deploy.yaml` contains a workflow which deploys to a staging environment on pushes to the `main` branch and to a production environment on pushes of tags of the form `v#.#.#`.
