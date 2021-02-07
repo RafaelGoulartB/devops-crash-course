@@ -33,7 +33,7 @@ router.get('/', ensureAuth, async (req, res) => {
       .lean()
 
     res.render('stories/index', {
-      stories,
+      stories
     })
   } catch (err) {
     console.error(err)
@@ -55,7 +55,7 @@ router.get('/:id', ensureAuth, async (req, res) => {
       res.render('error/404')
     } else {
       res.render('stories/show', {
-        story,
+        story
       })
     }
   } catch (err) {
@@ -69,7 +69,7 @@ router.get('/:id', ensureAuth, async (req, res) => {
 router.get('/edit/:id', ensureAuth, async (req, res) => {
   try {
     const story = await Story.findOne({
-      _id: req.params.id,
+      _id: req.params.id
     }).lean()
 
     if (!story) {
@@ -80,7 +80,7 @@ router.get('/edit/:id', ensureAuth, async (req, res) => {
       res.redirect('/stories')
     } else {
       res.render('stories/edit', {
-        story,
+        story
       })
     }
   } catch (err) {
@@ -104,7 +104,7 @@ router.put('/:id', ensureAuth, async (req, res) => {
     } else {
       story = await Story.findOneAndUpdate({ _id: req.params.id }, req.body, {
         new: true,
-        runValidators: true,
+        runValidators: true
       })
 
       res.redirect('/dashboard')
@@ -143,13 +143,13 @@ router.get('/user/:userId', ensureAuth, async (req, res) => {
   try {
     const stories = await Story.find({
       user: req.params.userId,
-      status: 'public',
+      status: 'public'
     })
       .populate('user')
       .lean()
 
     res.render('stories/index', {
-      stories,
+      stories
     })
   } catch (err) {
     console.error(err)

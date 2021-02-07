@@ -26,7 +26,7 @@ app.use(express.json())
 
 // Method override
 app.use(
-  methodOverride(function (req, res) {
+  methodOverride(function (req) {
     if (req.body && typeof req.body === 'object' && '_method' in req.body) {
       // look in urlencoded POST bodies and delete it
       let method = req.body._method
@@ -47,7 +47,7 @@ const {
   stripTags,
   truncate,
   editIcon,
-  select,
+  select
 } = require('./helpers/hbs')
 
 // Handlebars
@@ -59,10 +59,10 @@ app.engine(
       stripTags,
       truncate,
       editIcon,
-      select,
+      select
     },
     defaultLayout: 'main',
-    extname: '.hbs',
+    extname: '.hbs'
   })
 )
 app.set('view engine', '.hbs')
@@ -73,7 +73,7 @@ app.use(
     secret: 'keyboard cat',
     resave: false,
     saveUninitialized: false,
-    store: new MongoStore({ mongooseConnection: mongoose.connection }),
+    store: new MongoStore({ mongooseConnection: mongoose.connection })
   })
 )
 
