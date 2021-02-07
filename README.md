@@ -74,18 +74,16 @@ This project was made using the follow technologies:
 - Dockerized Aplication
 
 # :construction_worker: How to run
-Add your **MongoDB URI** and **Google OAuth** credentials to the `config.env` file
+Add your **MongoDB URI** and **Google OAuth** credentials to the `config.env` file.    
 
+*MongoDB URI*: `mongodb://mongo:27017/storybooks`
+
+Then run:
 ```
-# Install dependencies
-npm install
-
-# Run in development
-npm run dev
-
-# Run in production
-npm start
+make run-local
 ```
+
+This will use docker-compose to build the application into a docker image and then run it alongside a Mongo DB container.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 <br>
