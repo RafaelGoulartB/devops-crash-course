@@ -39,8 +39,8 @@ For full tutorial, see the video I created for the [Traversy Media YouTube chann
 
 <br />
 <div align="center">
-  <img src="./.github/screenshots/screenshot-1.png" width="480">
-  <img src="./.github/screenshots/screenshot-2.png" width="480">
+  <img src="./.github/screenshots/screenshot-1.png" width="540">
+  <img src="./.github/screenshots/screenshot-2.png" width="540">
 </div>
 
 ---
