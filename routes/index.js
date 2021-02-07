@@ -8,7 +8,7 @@ const Story = require('../models/Story')
 // @route   GET /
 router.get('/', ensureGuest, (req, res) => {
   res.render('login', {
-    layout: 'login',
+    layout: 'login'
   })
 })
 
@@ -19,7 +19,7 @@ router.get('/dashboard', ensureAuth, async (req, res) => {
     const stories = await Story.find({ user: req.user.id }).lean()
     res.render('dashboard', {
       name: req.user.firstName,
-      stories,
+      stories
     })
   } catch (err) {
     console.error(err)
